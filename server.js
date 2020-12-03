@@ -25,7 +25,7 @@ app.use(bodyParser.json());
 
 // health endpoint - returns an empty array
 app.get('/', (req, res) => {
-    res.json({message: 'Events backend with Firestore'});
+    res.json({message: 'Events backend with Firestore!!'});
 });
 
 // version endpoint to provide easy convenient method to demonstrating tests pass/fail
